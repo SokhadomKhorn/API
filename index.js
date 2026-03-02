@@ -2,7 +2,7 @@
 const e1 = require('express');
 const app = e1();
 
-//SEARCH API
+//SEARCH API - Updated
 app.get('/search', (req, res) => {
     res.send('<html><body>INSIDE SEARCH API..</body></html>');
 });
